@@ -1,0 +1,307 @@
+@font-face {
+    font-family: HelveticaLT;
+    src: url("../fonts/HelveticaLTStd-Roman.otf") format("opentype");
+}
+@font-face{
+    font-family: HelveticaNeue;
+    src: url("../fonts/helvetica-neue-lt-std-47-light-condensed.otf")
+}
+
+html{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+body{
+    background-color: white;
+    height: 100%;
+    font-family: HelveticaLT;
+}
+p{
+    font-family: HelveticaNeue;
+    font-size: large;
+}
+.box-shadow{
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .3);
+  }
+.hide{
+    display: none;
+}
+.logo{
+    width: 7.5rem;
+    transition: transform .2s ease;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+.cover-home{
+    min-height: 88vh;
+    background-image: url(../img/portada4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.cover-who{
+    min-height: 75vh;
+    background-color: #CDD84E;
+    background-size: cover;
+    background-position: center;
+}
+.cover-contacto{
+    min-height: 88vh;
+    background-image: url(../img/contact.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.cover-transparencia{
+    min-height: 88vh;
+    background-image: url(../img/transparencia.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.cover-arbolito{
+    min-height: 88vh;
+    background-image: url(../img/cover_arbolito.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.cover-sostenibilidad{
+    min-height: 88vh;
+    background-image: url(../img/sostenibilidad.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.bg-custom{
+    background-color:rgba(0, 0, 0, .4);
+}
+.bg-transparent{
+    background-color:transparent;
+}
+.navbar-custom .navbar-nav .active>.nav-link, .navbar-custom .navbar-nav .nav-link.active, .navbar-custom .navbar-nav .nav-link.show, .navbar-custom .navbar-nav .show>.nav-link {
+    color: white;
+    border-bottom:2px solid white;
+  }
+  
+  .navbar-custom .navbar-nav .nav-link {
+    color: white;
+  }
+  
+  .navbar-custom .navbar-nav .nav-link:focus, .navbar-custom .navbar-nav .nav-link:hover {
+    color: white !important;
+    border-bottom:2px solid white;
+}
+.navbar-custom2 .navbar-nav .active>.nav-link, .navbar-custom2 .navbar-nav .nav-link.active, .navbar-custom2 .navbar-nav .nav-link.show, .navbar-custom2 .navbar-nav .show>.nav-link {
+    color: #999898;
+    border-bottom:2px solid #999898;
+  }
+  
+  .navbar-custom2 .navbar-nav .nav-link {
+    color: #999898;
+  }
+  
+  .navbar-custom2 .navbar-nav .nav-link:focus, .navbar-custom2 .navbar-nav .nav-link:hover {
+    color: #999898 !important;
+    border-bottom:2px solid #999898;
+}
+.navbar-nav > li > .dropdown-menu-bg{ 
+    background-color: white;
+}
+.cover-title{
+    margin-top: 100px;
+    color: white;
+    font-size: 50px;
+    font-family: 'HankenGroteskRegular';
+    font-weight: bold;
+    font-style: normal;
+    text-shadow: 5px 6px 15px black;
+}
+.section{
+    min-height: 450px;
+}
+.bg-gray{
+    background-color: #f4f4f4;
+}
+.img-kids{
+    height: 45vh;
+    background-image: url(../img/kids.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img-plants{
+    height: 45vh;
+    background-image: url(../img/plants.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img-pico{
+    height: 45vh;
+    background-image: url(../img/pico2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.img-section2{
+    min-height: 45vh;
+    background-image: url(../img/hands.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img-half{
+    min-height: 500px;
+    background-image: url(../img/smile.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.blue-hr{
+    border: 15px solid #80a8d9;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.gray-hr{
+    border: 15px solid #3E3F41;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+.footer{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #f4f4f4;
+}
+.test-vertical{
+    margin-top: 30%;
+}
+.medium-left{
+    text-align: left;
+}
+.medium-right{
+    text-align: right;
+}
+.link-black{
+    color: black;
+}
+.link-black:visited{
+    color: black;
+}
+.small-black{
+    border: .5px solid black;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.btn-dona{
+    color: white;
+    background-color: #80a8d9;
+}
+.btn-dona:hover, .btn-dona:active, .btn-dona:visited{
+    color: white;
+    background-color: #5e89be;
+}
+.dropdown-menu{
+    background-color:transparent;
+    border: 0cm;
+}
+.dropdown-item{
+    color: white;
+}
+.dropdown-item:hover{
+    background-color: transparent;
+    color: white;
+    border-bottom:2px solid white;
+}
+.item2{
+    color: #999898;
+}
+.item2:hover{
+    background-color: transparent;
+    color: #999898;
+    border-bottom:2px solid #999898;
+}
+.cover-subtitle{
+    color: white;
+    font-family: 'HKGroteskRegular';
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 5px 6px 15px black;
+}
+.body-title{
+    font-size: 35px;
+    font-weight: lighter;
+}
+.btn-xl {
+    padding: 15px 28px;
+    font-size: 30px;
+    line-height: normal;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+.card-sm{
+    min-height: 310px;
+}
+.mitexto{
+    font-size: large;
+}
+.instagram{
+    color: #d6249f;
+}
+.facebook{
+    color: #4267B2;
+}
+.youtube{
+    color: #FF0000;
+}
+.search-box{
+    margin-top: 15vh;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: rgba(0, 0, 0, .4);
+    min-height: 33vh;
+}
+.search-text{
+    color: white;
+}
+.text-blue{
+    color: #80a8d9;
+    font-weight: bold;
+}
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+.diagram{
+    width: 50%;
+}
+.media-top-margin{
+    margin-top: 8rem;
+}
+@media(max-width: 768px){
+    .medium-left{
+        text-align: center;
+    }
+    .medium-right{
+        text-align: center;
+    }
+    .test-vertical{
+        margin-top: 5%;
+    }
+    .search-box{
+        margin-top: 8vh;
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color: rgba(0, 0, 0, .4);
+        min-height: 33vh;
+    }
+    .card-img-top {
+        width: 100%;
+        height: 65vw;
+        object-fit: cover;
+    }
+    .diagram{
+        width: 100%;
+    }
+    .media-top-margin{
+        margin-top: 3rem;
+    }
+}

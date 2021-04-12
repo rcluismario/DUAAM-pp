@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
+
+.main-wrapper {
+  display: flex;
+  width: 100%;
+}
+.sidebar.active {
+  margin-left: -250px;
+}
+@media (max-width: 992px) {
+  .sidebar {
+    margin-left: -250px;
+  }
+  .sidebar.active {
+    margin-left: 0;
+  }
+  .sidebar-collapse {
+    color: black !important;
+    text-decoration: none !important;
+    display: inline;
+  }
+}
+@media (min-width: 992px) {
+  .sidebar-collapse {
+    color: black !important;
+    text-decoration: none !important;
+    display: none;
+  }
+}
+.sidebar {
+  min-width: 250px;
+  max-width: 250px;
+  min-height: 100vh;
+  background-color: #80a8d9;
+  font-family: "Roboto", "sans-serif";
+  transition: all 0.3s;
+}
+.sidebar-header {
+  padding: 20px;
+}
+.sidebar-content {
+  padding: 20px 0;
+}
+.sidebar-item {
+  padding: 10px;
+  font-size: 1.2em;
+  display: block;
+  color: white !important;
+}
+.sidebar-item.active {
+  background: white;
+  color: black !important;
+}
+.sidebar ul li a:hover {
+  background: white;
+  color: black !important;
+  text-decoration: none;
+}
+.sidebar-button{
+  padding: 10px;
+  font-size: 1.2em;
+  display: block;
+  color: white !important;
+  border: 0;
+  background-color: #80a8d9;
+  width: 100%;
+  text-align: left;
+
+}
+.sidebar-button:hover{
+  background: white;
+  color: black !important;
+  text-decoration: none;
+}
+.logout{
+  background-color: #80a8d9;
+  width: 100%;
+}
+.logout:hover{
+  background: white;
+  color: black !important;
+  text-decoration: none;
+}
